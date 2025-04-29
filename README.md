@@ -106,9 +106,13 @@ def fitness(self) -> float:
         return -closest_city_dist + closest_shop_dist
 ```
 While the solution was shown in the video, the complete program was written by myself. 
+
 <img src="https://github.com/user-attachments/assets/ab0406d7-8916-4072-a470-798f34c5f9ab" width="30%" />
+
 This is the start of the algorithm. Ten particles are placed random with random initial momentums. After a few iterations, the solution converges to the optimum:
+
 <img src="https://github.com/user-attachments/assets/d4a69265-7e50-40a2-b99c-e18ad259ebd4" width="30%" />
+
 The algorithm works fast and finds reliable solutions. 
 
 
